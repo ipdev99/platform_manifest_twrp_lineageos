@@ -516,4 +516,7 @@
   <!-- Include TWRP extras -->
   <include name="twrp-extras.xml" />
 
+  <!-- Add devices -->
+  <include name="device.xml"/>
+
 </manifest>

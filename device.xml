@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="ipdev99"
+          fetch="https://github.com/ipdev99" />
+
+  <!-- <remote name="followmsi"
+          fetch="https://github.com/followmsi" /> -->
+
+  <!-- Nexus 7 [2013] "flo"(WiFi) "deb"(Mobile) -->
+  <project path="device/asus/flo" name="android_device_asus_flo" remote="ipdev99" revision="twrp" />
+  <project path="device/asus/deb" name="android_device_asus_deb" remote="ipdev99" revision="twrp" />
+  <!-- <project path="kernel/google/msm" name="android_kernel_google_msm" remote="followmsi" revision="followmsi-11" />
+  <project path="vendor/asus" name="android_vendor" remote="followmsi" revision="flo-deb-lineage-18.1" /> -->
+
+    <!-- <remote name="TeamWin"
+            fetch="https://github.com/TeamWin"
+            review="https://gerrit.twrp.me" /> -->
+
+    <!-- TWRP Nexus 7 [2013] "flo"(WiFi) "deb"(Mobile) -->
+    <!-- <project path="device/asus/flo" name="android_device_asus_flo" remote="TeamWin" revision="android-6.0" />
+    <project path="device/asus/deb" name="android_device_asus_deb" remote="TeamWin" revision="android-5.0" /> -->
+
+</manifest>
+
